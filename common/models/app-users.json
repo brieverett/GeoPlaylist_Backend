@@ -1,0 +1,30 @@
+{
+  "name": "AppUsers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "Password": {
+      "type": "string",
+      "required": true
+    },
+    "User_Name": {
+      "type": "string",
+      "required": true
+    },
+    "User_LatLng": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

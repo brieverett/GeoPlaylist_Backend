@@ -1,0 +1,22 @@
+{
+  "name": "Playlist",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Geofence_ID": {
+      "type": "string",
+      "required": true
+    },
+    "Center_LatLng": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
