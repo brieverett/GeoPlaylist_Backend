@@ -35,15 +35,15 @@
     "dataSource": "db",
     "public": false
   },
-  "AppUsers": {
-    "dataSource": "mongo",
-    "public": true
-  },
   "Playlist": {
     "dataSource": "mongo",
     "public": true
   },
   "Songs": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "AppUsers": {
     "dataSource": "mongo",
     "public": true
   }
